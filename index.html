@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#285943">
+    <meta name="description" content="Esercizio A2–B1 sul pronome relativo CHE.">
+    <title>CHE nelle frasi relative | 好好意语</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#exercise">Vai all'esercizio</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <p class="brand">好好意语 · Haohao Italiano</p>
+        <p id="progress-label" class="progress-label">Parte 1 di 2</p>
+      </div>
+      <div class="progress-track" aria-hidden="true">
+        <span id="progress-bar" class="progress-bar"></span>
+      </div>
+    </header>
+
+    <main id="exercise" class="page-shell" tabindex="-1">
+      <section id="part-1" class="exercise-view" aria-labelledby="part-1-title">
+        <div class="title-block">
+          <p class="eyebrow">Parte 1</p>
+          <h1 id="part-1-title">Riconosci le due frasi</h1>
+          <p class="instruction-it">Leggi le frasi e individua la frase principale e la frase relativa.</p>
+          <p class="instruction-zh" lang="zh-CN">阅读以下句子，找出主句和关系从句。</p>
+        </div>
+
+        <aside class="tip-card">
+          <strong>Come si fa?｜怎么做？</strong>
+          <p>Scegli un colore, poi tocca le parole. La frase relativa deve includere <b>CHE</b>.</p>
+          <p lang="zh-CN">先选择一种颜色，再点击词语。关系从句必须包含 <b>CHE</b>。</p>
+        </aside>
+
+        <div class="mode-picker" role="group" aria-label="Tipo di frase da selezionare">
+          <button id="mode-main" class="mode-button is-active" type="button" aria-pressed="true">
+            Frase principale
+            <small>主句</small>
+          </button>
+          <button id="mode-relative" class="mode-button" type="button" aria-pressed="false">
+            Frase relativa
+            <small>关系从句</small>
+          </button>
+        </div>
+
+        <div id="part-1-card" class="question-card" aria-live="polite"></div>
+        <nav id="part-1-nav" class="question-nav" aria-label="Domande della Parte 1"></nav>
+        <div id="part-1-feedback" class="part-feedback" role="status" aria-live="polite"></div>
+
+        <div class="part-actions">
+          <button id="check-part-1" class="primary-button" type="button">Controlla</button>
+          <button id="continue-part-1" class="secondary-button" type="button" hidden>Continua</button>
+        </div>
+      </section>
+
+      <section id="part-2" class="exercise-view" aria-labelledby="part-2-title" hidden>
+        <div class="title-block">
+          <p class="eyebrow">Parte 2</p>
+          <h1 id="part-2-title">Che cosa sostituisce CHE?</h1>
+          <p class="instruction-it">Per ogni frase, individua la parola o il gruppo di parole che viene sostituito dal pronome relativo CHE e indica la sua funzione nella frase relativa.</p>
+          <p class="instruction-zh" lang="zh-CN">找出关系代词 CHE 所代替的词，并判断 CHE 在关系从句中作主语还是直接宾语。</p>
+        </div>
+
+        <aside class="tip-card compact-tip">
+          <strong>Due passi｜两个步骤</strong>
+          <p>1. Tocca la parola o il gruppo di parole.　2. Scegli la funzione di CHE.</p>
+        </aside>
+
+        <div id="part-2-card" class="question-card" aria-live="polite"></div>
+        <nav id="part-2-nav" class="question-nav" aria-label="Domande della Parte 2"></nav>
+        <div id="part-2-feedback" class="part-feedback" role="status" aria-live="polite"></div>
+
+        <div class="part-actions split-actions">
+          <button id="back-to-part-1" class="text-button" type="button">← Parte 1</button>
+          <div class="right-actions">
+            <button id="check-part-2" class="primary-button" type="button">Controlla</button>
+            <button id="continue-part-2" class="secondary-button" type="button" hidden>Continua</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="result" class="exercise-view result-view" aria-labelledby="result-title" hidden>
+        <div class="celebration" aria-hidden="true">✓</div>
+        <p class="eyebrow">Completato</p>
+        <h1 id="result-title">Complimenti! Hai completato l'esercizio!</h1>
+
+        <div class="learning-summary">
+          <h2>Oggi hai imparato a:</h2>
+          <ul>
+            <li>Riconoscere la frase principale.</li>
+            <li>Individuare la frase relativa.</li>
+            <li>Capire quale parola viene sostituita da CHE.</li>
+            <li>Distinguere CHE soggetto da CHE oggetto diretto.</li>
+          </ul>
+        </div>
+
+        <div class="result-actions">
+          <button id="back-to-part-2" class="text-button" type="button">← Parte 2</button>
+          <button id="restart" class="primary-button" type="button">Ricomincia</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
